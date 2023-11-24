@@ -1,0 +1,113 @@
+body, html {
+  margin: 0;
+  background-color: aliceblue;
+}
+
+nav {
+  background-color: black;
+  top: 0;
+  position: sticky;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 0;
+  margin-left: 0;
+  transition-duration: 0.4s;
+  color: white;
+  padding: 14px;
+  background-color: black;
+  user-select: none;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.nav-item:active {
+  transform: translateY(7px);
+}
+
+.heading {
+  padding: 15px;
+  border-width: 10px;
+  border-color: orange;
+  border-radius: 10px;
+  border-style: solid;
+  background-color: darkturquoise;
+  margin-left: 0;
+  background-size: cover;
+  height: 87px;
+}
+
+#Home {
+  margin-left: 0;
+}
+
+#logo {
+  margin-right: 0;
+  margin-left: 0;
+  transition-duration: 0.4s;
+  color: white;
+  padding: 9px;
+  background-color: black;
+  user-select: none;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+
+/* Highlight the active link */
+.nav-item.active {
+  background-color: cyan;
+  color: black;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  border-width: 5px;
+  border-color: red;
+  border-style: solid;
+  padding: 5px;
+  text-align: center;
+}
+
+.item img {
+  width: 250px;
+  height: 300px;
+}
+
+#searchInput {
+  padding: 10px;
+  border: 10px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#hide {
+  display: none
+}
